@@ -1,32 +1,53 @@
+html{
+    font-size:62.5%;
+}
+
 body{
     font-family: 'roboto mono';
     background: radial-gradient(rgb(175, 175, 184),rgb(46, 40, 77));
-    height: 600px;
+    height: 60rem;
     overflow: hidden;
 }
 .h1{
-    font-size: 45px;
+    font-size: 4.5rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3rem;
     color: rgb(224, 60, 31);
 }
 .label{
  
-    font-size: 100px;
-    line-height: 100px;
-    margin: 5px;
+    font-size: 10rem;
+    line-height: 10rem;
+    margin: 0.5rem;
 }
 table{
-    margin: 30px auto;
+    margin: 3rem auto;
     text-align: center;
 
 }
 td>button{
-    width: 100px;
-    padding:8px;
-    border:1px solid #d5e0d5;
+    width: 10rem;
+    padding:0.8rem;
+    border:0.1rem solid #d5e0d5;
     background-color:green;
     color:white;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+@media(max-width:998px) {
+    html{
+        font-size:55%;
+    }
+}
+
+@media(max-width:768px) {
+    html{
+        font-size:45%;
+    }
+}
+
+@media(max-width:400px) {
+    html{
+        font-size:40%;
+    }
 }
